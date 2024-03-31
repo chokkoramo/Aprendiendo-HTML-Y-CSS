@@ -5,10 +5,19 @@ body{
     margin: 0;
 }
 
-.card{
+.card-kodak{
     background: #280274;
     text-align: center;
-    width: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 15px 10px 60px 0 #0007;
+}
+
+.card-travis{
+    background: #280274;
+    text-align: center;
+    width: 400px;
     margin: auto;
     margin-top: 20px;
     box-shadow: 15px 10px 60px 0 #0007;
@@ -29,14 +38,23 @@ body{
 
 .card_content{
     font-size: 12px;
-    padding: 20px;
+    padding: 20px 20px ;
     background: #FE7A36;
     text-align: justify;
+    
 }
 
-.card_image{
-    width: 400px;
+.card_image_kodak{
+    width: 300px;
+    height: 350px;
     margin-top: 20px;
-    /* padding-top: 50px; */
     border-radius: 50%;
+}
+
+.card_image_travis{
+    width: 300px;
+    height: 330px;
+    margin-top: 20px;
+    border-radius: 50%;
+    
 }
