@@ -5,28 +5,22 @@ body{
     margin: 0;
 }
 
-.card-kodak{
+.card{
     background: #280274;
     text-align: center;
     width: 400px;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
     box-shadow: 15px 10px 60px 0 #0007;
-}
-
-.card-travis{
-    background: #280274;
-    text-align: center;
-    width: 400px;
-    margin: auto;
-    margin-top: 20px;
-    box-shadow: 15px 10px 60px 0 #0007;
+    box-sizing: border-box;
 }
 
 .card_title{
     padding-top: 3px;
     font-size: 22px;
     letter-spacing: 15px;
+    margin-right: -8px;
 }
 
 .card_subtitle{
@@ -56,5 +50,25 @@ body{
     height: 330px;
     margin-top: 20px;
     border-radius: 50%;
-    
+}
+
+.card_image_metro{
+    width: 310px;
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    text-align: center;
+    padding-top: 1px;
+    letter-spacing: 2px;
+}
+
+.footer_p{
+    text-shadow: 10px 5px 3px whitesmoke;
+    font-size: 18px;
 }
